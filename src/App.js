@@ -12,6 +12,8 @@ import page from './components/News';
 const App= ()=> {
     return (
       <div>
+              <HashRouter basename="/">
+
       <Router>
       <NavBar/>
       
@@ -25,6 +27,8 @@ const App= ()=> {
             <Route exact path="/technology"element={<News key="technology" country="in" category="technology"/>}/>
         </Routes>
       </Router>
+      </HashRouter>
+
     </div>
     )
 }
