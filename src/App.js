@@ -5,8 +5,8 @@ import News from './components/News';
 import {
   BrowserRouter as Router,
   Routes,
-  // Switch,
-  Route,
+  HashRouter,
+  Route
 } from "react-router-dom";
 import page from './components/News';
 const App= ()=> {
